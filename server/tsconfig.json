@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es2016",             /* Modern JavaScript output */
+    "module": "commonjs",           /* Node standard module system */
+    "rootDir": "./src",             /* Where your .ts files live */
+    "outDir": "./dist",             /* Where build files go */
+    "esModuleInterop": true,        /* Crucial for 'import express from express' to work */
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"]
+}
