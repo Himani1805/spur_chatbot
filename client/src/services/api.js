@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'api/chat';
+const API_URL = 'https://spur-chatbot-fai3.onrender.com/api/chat';
 
 // Get or Create Session ID
 export const getSessionId = () => {
